@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", "Work Sans", Arial;
+}
+
+*:link {
+  text-decoration: none;
+}
+
+body {
+  margin: auto;
+  max-width: 1100px;
+}
+a {
+  height: 60px;
+  color: inherit;
+  font: inherit;
+}
+h1 {
+  color: #232325;
+  border-top: 4px solid #777;
+  font-size: 28px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22.5px;
+  color: #000000;
+}
+h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(104, 104, 104);
+}
+
+.line img {
+  width: 100%;
+}
+
+.col > p {
+  color: rgb(141, 141, 141);
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.top-bar {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  height: 60px;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  width: 100%;
+}
+nav a:visited {
+  color: white;
+}
+li {
+  border: black solid 8px;
+  border-left: 0;
+  border-right: 0;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  list-style: none;
+  padding: 5px 0;
+}
+
+.recherche {
+  align-items: center;
+  padding: 10px;
+  margin-left: 50px;
+}
+.user {
+  padding: 10px;
+}
+
+li.maison {
+  justify-content: flex-start;
+}
+.recherche:hover,
+.user:hover {
+  background-color: #414141;
+}
+li.sports:hover {
+  border-bottom-color: #ffaf00;
+}
+li.actualites:hover,
+li.international:hover {
+  border-bottom-color: #5a79a0;
+}
+li.debats:hover {
+  border-bottom-color: #837466;
+}
+li.analyses:hover {
+  border-bottom-color: #5a79a0;
+}
+li.affaires:hover {
+  border-bottom-color: #207fb8;
+}
+li.auto:hover {
+  border-bottom-color: #5b7d8e;
+}
+li.arts:hover {
+  border-bottom-color: #008591;
+}
+li.cinema:hover {
+  border-bottom-color: #a060a8;
+}
+li.societe:hover,
+li.gourmand:hover {
+  border-bottom-color: #a060a8;
+}
+li.voyage:hover {
+  border-bottom-color: #ff6c00;
+}
+li.maison:hover {
+  border-bottom-color: #55815d;
+}
+
+.line {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.col {
+  border-top: 1px solid rgb(43, 42, 42);
+  flex-basis: 15%;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+.cat-label {
+  color: white;
+  border-radius: 5px;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 27px;
+  margin: 8px 0px 10px 0px;
+  padding: 6px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+.sports .cat-label {
+  background-color: #ffaf00;
+}
+
+.editoriaux .cat-label {
+  background-color: #837466;
+}
+.international .cat-label {
+  background-color: #5a79a0;
+}
+.entreprises .cat-label {
+  background-color: #207fb7;
+}
+.arts .cat-label {
+  background-color: #008591;
+}
+.societe .cat-label {
+  background-color: #840132;
+}
+
+.col:hover img {
+  filter: opacity(0.9);
+}
+.col.sports:hover h2 {
+  color: #ffaf00;
+}
+.col.editoriaux:hover h2 {
+  color: #837466;
+}
+
+.col.international:hover h2 {
+  color: #5a79a0;
+}
+
+.col.entreprises:hover h2 {
+  color: #207fb7;
+}
+
+.col.arts:hover h2 {
+  color: #207fb7;
+}
+
+.col.societe:hover h2 {
+  color: #840132;
+}
